@@ -1,0 +1,28 @@
+{
+  "name": "filebeat",
+  "version": "1.0.0",
+  "description": "testing filebeat on nodejs",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node webserver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeruano3/filebeat-test.git"
+  },
+  "keywords": [
+    "filebeat"
+  ],
+  "author": "Miguel Ruano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeruano3/filebeat-test/issues"
+  },
+  "homepage": "https://github.com/mikeruano3/filebeat-test#readme",
+  "dependencies": {
+    "@elastic/ecs-winston-format": "^1.3.1",
+    "got": "^9.6.0",
+    "winston": "^3.7.2"
+  }
+}
